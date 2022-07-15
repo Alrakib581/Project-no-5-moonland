@@ -1,131 +1,147 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    width: 100%;
-   
-    margin: auto;
 
+.container {
+    width: 100%;
+    margin: auto;
 }
-.banner-container{
+.banner-container {
     background-image: url(./image/moon.jpg);
     background-size: contain;
     background-position: center;
     background-color: black;
     background-repeat: no-repeat;
-    height:100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
 }
-.banner-heading >h1{
+
+.banner-heading>h1 {
     color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
     font-size: 40px;
-    margin-left:100px;
-    
+    margin-left: 100px;
 
 }
-.heading-span{
+
+.heading-span {
     color: tomato;
 }
-.banner-p >p{
+
+.banner-p>p {
     color: tomato;
-    font-size:24px;
+    font-size: 24px;
     margin-top: 20px;
     margin-left: 100px;
-    
 }
-#form-section{
-    background-color: #1A4D2E;
+
+#form-section {
+    background-color: #313552;
     height: 100vh;
-   
-    
 }
-.popup{
+
+.popup {
     background-color: tomato;
     width: 300px;
     height: 130px;
     margin: 0 auto;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   box-shadow: 0.1px 0.1px 5px;
-    
-} 
-.popup >h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1px 0.1px 5px;
+
+}
+
+.popup>h2 {
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
     color: white;
 }
-.popup >p{
+
+.popup>p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.7;
 }
-.form-container{
+
+.form-container {
     display: flex;
     justify-content: space-evenly;
-  
+
 }
-label{
-    display:block;
+
+label {
+    display: block;
     font-size: 22px;
     color: white;
-   margin: 24px 0px;
+    margin: 24px 0px;
 }
-.common-input{
+
+.common-input {
     font-size: 22px;
     border: none;
-    padding: 12px 30px;
+    width: 300px;
+    padding: 12px;
     border-radius: 5px;
 }
-input[type=submit]{
+
+input[type=submit] {
     display: block;
     border: none;
     font-size: 22px;
-    padding: 12px 33px;
+    width: 300px;
+    padding: 12px;
     border-radius: 5px;
     margin-top: 35px;
     background-color: #EC255A;
     color: #ffffff;
 }
-input[type=submit]:hover{
+
+input[type=submit]:hover {
     background-color: black;
     color: white;
     transition: 1s;
 }
-.description{
+
+.description {
     flex-basis: 20%;
 }
-.description>h3{
+
+.description>h3 {
     color: yellow;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
 }
-.description>p{
+
+.description>p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
-.input-container{
+
+.input-container {
     flex-basis: 20%;
 }
-.address{
+
+.address {
     flex-basis: 20%;
 }
-.address>h3{
+
+.address>h3 {
     color: yellow;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
 }
-address{
+
+address {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
