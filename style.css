@@ -109,6 +109,7 @@ input[type=submit]:hover {
     background-color: black;
     color: white;
     transition: 1s;
+    cursor: pointer;
 }
 
 .description {
